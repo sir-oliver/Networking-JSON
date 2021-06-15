@@ -15,7 +15,7 @@ struct ContentView: View {
     @State var cancellables = Set<AnyCancellable>()
 
     var body: some View {
-        Text("Hello World!!!")
+        Text("Hello World...")
             .onAppear(perform: getSinglePost)
             .onAppear(perform: getMultiplePosts)
             .padding()
